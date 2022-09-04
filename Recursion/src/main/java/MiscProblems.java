@@ -1,6 +1,6 @@
 import java.util.ArrayDeque;
 
-public class Test {
+public class MiscProblems {
 
     public static int houseRobber(int[] items){
         int noRob=0;
