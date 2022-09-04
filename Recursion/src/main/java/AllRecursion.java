@@ -253,6 +253,7 @@ public class AllRecursion {
         return longestSubsequence(a,b,a.length(),b.length());
     }
 
+    //Same solution can be used to tell number of inserts to make it a palindrom.
     private static int minDeleteToMakePalindrom(String a){
         return a.length() - longestPalindromincSuseq(a);
     }
